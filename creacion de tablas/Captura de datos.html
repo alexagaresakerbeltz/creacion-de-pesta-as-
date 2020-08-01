@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+
+
+</head>
+
+
+  <body>
+
+
+ <h1>NUEVO TAB</h1>
+ <br><br><br>
+
+  <main>
+
+    <div>
+     
+
+      <form > 
+
+        <table>
+             <tr>
+                    <td>TITULO:</td>
+
+                    <td>
+                       <input type="text" id="title" placeholder="titulo">
+                    </td>
+            </tr>
+
+
+                  <tr>
+                    <td class="posi">CONTENIDO:</td>
+                    <td>
+                          <textarea name="contenido" id="contenido" placeholder="contenido" class="conte"></textarea>
+                    </td>
+                </tr>
+
+                  <tr>
+
+                    <td></td>
+                    <td>
+                        <input type="button" id="button" value="CREAR" onclick="capturar()">
+ 
+                        <input type="reset" value="BORRAR"/>
+                    </td>
+                </tr>
+
+        </table>
+       </form>
+
+       <hr>
+
+    </div >
+
+   <h2>TABS</h2>
+
+       <div class="contenedor">
+
+            <ul class="contit" id="contit" id="conte-ti">
+
+                <li class="resul " id="conte-ti1">  </li>
+
+             
+            </ul>
+        </div>
+
+        <div class="conte-pa" id="panele" id="cont">
+
+      <div class="conte-pan active" id="cont1" > </div>
+      
+               
+        </div>
+  
+  </main>
+
+
+  <script src="codi.js"></script>
+
+</body>
+
+
+</html>
